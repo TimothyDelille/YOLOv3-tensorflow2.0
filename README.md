@@ -62,11 +62,11 @@ This tensor is fed through the network:
 
 And outputs a tensor of shape `(N*N*[3*(4 coordinates + 1 objectness score + n classes)]` for each scale:
 
-![Output](Picture3.png)
+![Output](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/Picture3.png)
 
 Here is the output for the three scales and the whole batch:
 
-![Full output](Picture4.png)
+![Full output](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/Picture4.png)
 
 
 ```python
@@ -524,7 +524,7 @@ print('postprocess: {} s'.format(round(stop_postprocess - start_postprocess, 3))
 
 
 
-![png](output_10_1.png)
+![png](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/output_10_1.png)
 
 
 ## Training the model

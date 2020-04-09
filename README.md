@@ -62,11 +62,11 @@ This tensor is fed through the network:
 
 And outputs a tensor of shape `(N*N*[3*(4 coordinates + 1 objectness score + n classes)]` for each scale:
 
-![Output](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/Picture3.png)
+![Output](Picture3.png)
 
 Here is the output for the three scales and the whole batch:
 
-![Full output](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/Picture4.png)
+![Full output](Picture4.png)
 
 
 ```python

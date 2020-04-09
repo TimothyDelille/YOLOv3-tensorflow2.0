@@ -47,7 +47,7 @@ LEAKY_RELU = 0.1
 
 We use the architecture from the original paper:
 
-![YOLOv3 architecture](yolov3_architecture.png)
+![YOLOv3 architecture](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/yolov3_architecture.png)
 <center>Overview of the YOLOv3 architecture</center>
 
 [Reference](https://www.cyberailab.com/home/a-closer-look-at-yolov3)

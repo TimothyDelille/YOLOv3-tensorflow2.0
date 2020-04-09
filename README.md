@@ -47,18 +47,18 @@ LEAKY_RELU = 0.1
 
 We use the architecture from the original paper:
 
-![YOLOv3 architecture](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/yolov3_architecture.png)
+![YOLOv3 architecture](yolov3_architecture.png)
 <center>Overview of the YOLOv3 architecture</center>
 
 [Reference](https://www.cyberailab.com/home/a-closer-look-at-yolov3)
 
 The input images should be in shape `(416, 416, 3)` (3 channels for RGB). We might have to resize and pad the input images. The images are in batches of shape: `(batch size, 416, 416, 3)`
 
-![Tensor](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/Picture1.png)
+![Tensor](Picture1.png)
 
 This tensor is fed through the network:
 
-![Network](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/Picture2.png)
+![Network](Picture2.png)
 
 And outputs a tensor of shape `(N*N*[3*(4 coordinates + 1 objectness score + n classes)]` for each scale:
 

@@ -54,11 +54,11 @@ We use the architecture from the original paper:
 
 The input images should be in shape `(416, 416, 3)` (3 channels for RGB). We might have to resize and pad the input images. The images are in batches of shape: `(batch size, 416, 416, 3)`
 
-![Tensor](Picture1.png)
+![Tensor](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/Picture1.png)
 
 This tensor is fed through the network:
 
-![Network](Picture2.png)
+![Network](https://github.com/TimothyDelille/YOLOv3-tensorflow2.0/blob/master/Picture2.png)
 
 And outputs a tensor of shape `(N*N*[3*(4 coordinates + 1 objectness score + n classes)]` for each scale:
 
